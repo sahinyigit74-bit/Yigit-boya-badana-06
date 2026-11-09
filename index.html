@@ -147,98 +147,152 @@ footer {
     font-size: 25px;
   }
 }
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eeeae2;
+  color: #263442;
+  line-height: 1.7;
+}
+
+header {
+  background: linear-gradient(135deg,#102536,#29465a);
+  color: white;
+  padding: 35px 15px;
+  text-align: center;
+  border-bottom: 5px solid #d5a04d;
+}
+
+header h1 {
+  font-size: 34px;
+  letter-spacing: 1.5px;
+}
+
+header p {
+  color: #f2c078;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+nav {
+  background: #182f41;
+  padding: 15px 8px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f2c078;
+}
+
+section {
+  padding: 45px 25px;
+  max-width: 1100px;
+  margin: 25px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.09);
+}
+
+h2 {
+  color: #17364b;
+  font-size: 27px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 3px solid #d5a04d;
+  padding-bottom: 12px;
+}
+
+section h3 {
+  color: #a66e26;
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+.hero {
+  background: linear-gradient(135deg,#102536,#42677c);
+  color: white;
+  text-align: center;
+  padding: 85px 20px;
+  border-bottom: 5px solid #d5a04d;
+}
+
+.hero h2 {
+  color: #f4c778;
+  font-size: 34px;
+  border: none;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 27px;
+  margin: 12px 5px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.phone-btn {
+  background: #bd812c;
+}
+
+.whatsapp-btn {
+  background: #168b50;
+}
+
+footer {
+  background: #102536;
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+  border-top: 5px solid #d5a04d;
+}
+
+@media(max-width:600px) {
+  header h1 {
+    font-size: 27px;
+  }
+
+  .hero {
+    padding: 55px 15px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 7px;
+  }
+}
 </style>
-
 <header>
-  <h1>YİĞİT BOYA BADANA</h1>
-  <p>Şahin Usta</p>
-</header>
-
-<nav>
-  <a href="#anasayfa">Ana Sayfa</a>
-  <a href="#hakkimizda">Hakkımızda</a>
-  <a href="#hizmetler">Hizmetlerimiz</a>
-  <a href="#iletisim">İletişim</a>
-</nav>
-
-<div class="hero" id="anasayfa">
-  <h2>Ankara'da Güvenilir Boya Badana Ustası</h2>
-  <p>Evinize değer katan temiz, titiz ve kaliteli işçilik.</p>
-  <p>Ev boyama ve boya badana hizmetlerinde Şahin Usta güvencesi.</p>
-
-  <a class="btn phone-btn" href="tel:+905358849911">
-    Hemen Ara
-  </a>
-
-  <a class="btn whatsapp-btn" href="https://wa.me/905358849911">
-    WhatsApp
-  </a>
-</div>
-
-<section id="hakkimizda">
-  <h2>Yiğit Boya Badana – Şahin Usta</h2>
-
-  <p>
-    Ankara'da ev ve yaşam alanlarınızı güzelleştirmek için
-    profesyonel boya badana ve ev boyama hizmetleri sunuyoruz.
-  </p>
-
-  <p>
-    Temiz çalışma, titiz işçilik, kaliteli malzeme ve müşteri
-    memnuniyetini ön planda tutuyoruz.
-  </p>
-
-  <p>
-    Şahin Usta olarak amacımız, evinizi kendi evimiz gibi
-    özenle boyamak ve sizlere güzel yaşam alanları sunmaktır.
-  </p>
-</section>
-
-<section id="hizmetler">
-  <h2>Ankara Boya Badana ve Ev Boyama Hizmetlerimiz</h2>
-
-  <p style="text-align:center;">
-    Yiğit Boya Badana Şahin Usta olarak Ankara'da
-    kaliteli ve güvenilir hizmet sunuyoruz.
-  </p>
-
-  <div style="margin-top:25px;">
-
-    <h3>Ev Boyama</h3>
-    <p>Ev, daire ve yaşam alanlarınızın profesyonel şekilde boyanması.</p>
-
-    <h3>İç Cephe Boya Badana</h3>
-    <p>Duvar ve tavanlarda temiz, düzgün ve özenli boya uygulaması.</p>
-
-    <h3>Duvar Boyama ve Yenileme</h3>
-    <p>Eski ve yıpranmış duvarların yenilenmesi ve güzelleştirilmesi.</p>
-
-    <h3>Fayans Derz Dolgu</h3>
-    <p>Fayans aralarının yenilenmesi ve derz dolgu uygulamaları.</p>
-
-    <h3>Su Yalıtımı ve Su Sızıntısı Önleme</h3>
-    <p>Uygun alanlarda su sızıntılarını önlemeye yönelik yalıtım uygulamaları.</p>
-
-  </div>
-</section>
-
-<section>
-  <h2>Hizmet Bölgelerimiz</h2>
-  <p style="text-align:center;">
-    Ankara genelinde ve özellikle:
-  </p>
-  <p style="text-align:center;">
-    <strong>Etimesgut – Sincan – Çankaya – Yenimahalle</strong>
-  </p>
-  <p style="text-align:center;">
-    Boya badana ve ev boyama hizmetlerimiz için bizimle iletişime geçebilirsiniz.
-  </p>
-</section>
-
-<section id="galeri">
-  <h2>Yaptığımız İşlerden Görüntüler</h2>
-
-  <p style="text-align:center;">
     Yiğit Boya Badana Şahin Usta olarak
     yaptığımız çalışmalardan örnekleri burada paylaşıyoruz.
   </p>
